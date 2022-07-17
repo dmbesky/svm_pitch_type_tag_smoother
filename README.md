@@ -19,7 +19,7 @@ Nonetheless, I believe this approach may provide some value relative to applying
 
 ## Dependencies
 
-The following packages are required:
+The following R packages are required:
 
 * e1071
 * magrittr
