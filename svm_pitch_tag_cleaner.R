@@ -10,7 +10,7 @@ init_data = init_data %>%
   filter_at(vars(velo,vert_break, horz_break),any_vars(!is.na(.))) %>%
   mutate(initial_pitch_type = as.factor(initial_pitch_type))
 
-#Function to Createa a Separate SVM Model for each pitcher - to customize pitch tags to their unique clusters and pitch types
+#Function to Create a Separate SVM Model for each pitcher - to customize pitch tags to their unique clusters and pitch types
 tag_cleaner <- function(spec_pitcher_id){
   print(spec_pitcher_id)
   #Filter to just specific pitcher and remove any pitches with NAs in Velo, HB, VB 
