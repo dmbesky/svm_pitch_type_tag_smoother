@@ -9,7 +9,7 @@ Assuming these tags are broadly correct just inconsistent, we may be able to gen
 
 This approach is not necessarily the most rigorous (and some further hyperparameter tuning may be in order), but I thought was an efficient way to leverage the information from the existing tags rather than ignoring those and attempting to reclassify pitches from scratch - when I was poking around with bulk cleaning pitch tags accounting for different pitchers arsenals.
 
-That said, the results here depend upon the initial pitch tags being generally directionally correct - and may output weird results when that does not hold. Furthermore, pitch types with only a couple occurences prove difficult to handle.
+Thus, the results here depend upon the initial pitch tags being generally directionally correct - and may output weird results when that does not hold. Furthermore, pitch types with only a couple occurences prove difficult to handle.
 
 Nonetheless, I believe this approach may provide some value relative to applying global classification techniques and/or in it's simplicity. A couple of examples showing how it adjusts tags:
 
